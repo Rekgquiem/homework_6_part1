@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+
+.a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.a:hover {
+  color: #00ACDC;
+}
+
+.header {
+  width: 1200px;
+  height: 60px;
+  border: solid black;
+}
+
+.d_flex {
+  display: flex;
+}
+
+.nav_logo {
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.nav {
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 0;
+  margin-left: 307px;
+  margin-top: 0;
+}
+
+.nav_links {
+  margin-left: 20px;
+  margin-top: 22.5px;
+}
+
+.nav_links:first-child {
+  margin-left: 0;
+}
